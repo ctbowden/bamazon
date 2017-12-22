@@ -1,8 +1,8 @@
-# UNC Coding Bootcamp
 # Node.js & MySQL Homework: Bamazon
-# Charles Bowden
+## UNC Coding Bootcamp
+## Charles Bowden
 
-## OverView
+### OverView
 
 This activity required the creation of a MySql database and a few command line applications that would be required to manage inventory for a store from both the user perspective and from a manager's perspective.  
 
@@ -18,7 +18,7 @@ Included in this repo is the MySql script used to generate my demo repository.
 
 - bamazonCustomer.js 
   - Contains the javascript coding for the store interface.
-  - Sample screenshot of program is included in the Github repository named "bamazonCustomer.png".
+  - Sample screenshot of program is included in the Github repository named "bamazonCustomer.png" https://github.com/ctbowden/bamazon/blob/master/bamazonCustomer.png.
   - The application will display a list of items to a user, prompt the user for the number of their item selection, and prompt for quantity to buy.  Then, sufficient inventory is available the application will deduct the order from the database and return a total price for the requested items.  If not enough items were available, the order will decline.
 
 - bamazonManager.js
