@@ -41,11 +41,6 @@ var questions = [{
 			}
 		}];
 
-var userItem = 0;
-var userQuantity = 0;
-var userPrice = 0;
-
-
 
 function bamazonUser() {
 	inquirer
