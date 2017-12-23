@@ -18,12 +18,12 @@ Included in this repo is the MySql script used to generate my demo repository.
 
 - bamazonCustomer.js 
   - Contains the javascript coding for the store interface.
-  - Sample screenshot of program is included in the Github repository named "bamazonCustomer.png" https://github.com/ctbowden/bamazon/blob/master/bamazonCustomer.png.
+  - Sample screenshot of program is included in the Github repository: https://github.com/ctbowden/bamazon/tree/master/screenshots.
   - The application will display a list of items to a user, prompt the user for the number of their item selection, and prompt for quantity to buy.  Then, sufficient inventory is available the application will deduct the order from the database and return a total price for the requested items.  If not enough items were available, the order will decline.
 
 - bamazonManager.js
   - Contains the javascript coding for the manager view of the store.  
-  - Sample Screenshot of program is included in this Github repository named "bamazonManager.png".
+  - Sample Screenshots of program is included in this Github repository: https://github.com/ctbowden/bamazon/tree/master/screenshots.
   - The application will provide users with a menu of five items that manage the bamazon database:
      - View Products - lists the products in Bamazon Database
      - Low Inventory Products - Shows a list of items with inventory 5 or less
