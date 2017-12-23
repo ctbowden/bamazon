@@ -24,4 +24,13 @@ Included in this repo is the MySql script used to generate my demo repository.
 - bamazonManager.js
   - Contains the javascript coding for the manager view of the store.  
   - Sample Screenshot of program is included in this Github repository named "bamazonManager.png".
-  - 
+  - The application will provide users with a menu of five items that manage the bamazon database:
+     - View Products - lists the products in Bamazon Database
+     - Low Inventory Products - Shows a list of items with inventory 5 or less
+     - Add to Inventory - Allows user to select an item and change it's inventory quantity
+     - Add New Inventory Item - Add an entirely new item to the database
+     - Exit - Exit the system
+
+### Demo Video
+
+Youtube https://youtu.be/vf0opriWD8A
