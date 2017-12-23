@@ -52,7 +52,7 @@ function readProducts() {
     	console.log(
     		"Item #: " + res[i].item_id +
     		" || Name: " + res[i].product_name +
-    		" || Price: " + res[i].price +
+    		" || Price: $" + res[i].price.toFixed(2) +
     		" || In Stock: " + res[i].stock_quantity
     		);
     	}
@@ -93,7 +93,7 @@ function totalPrice(number, price) {
 	// perform math to provide total to user
 	var total = parseFloat(number) * parseFloat(price);
 	// Log price to user
-	console.log("Your total price today is: " + total);
+	console.log("Your total price today is: $" + total.toFixed(2));
 	// Close Connection
 	connection.end();
 }
